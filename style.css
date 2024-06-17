@@ -1,0 +1,144 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+}
+
+#main-container {
+    display: flex;
+    width: 100%;
+    height: 56.8rem;
+    flex: 1;
+}  
+
+#sidebar {
+    width: 12.5rem;
+    background-color: white;
+    padding: 1rem;
+    box-shadow: 1rem 0 3rem rgba(0, 0, 0, 0.1);
+    height: 56.7rem;
+    position: fixed;
+}
+
+#sidebar h1 {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+}
+
+#sidebar h2 {
+    font-size: 1em;
+    margin: 2em 0 2em 0;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#sidebar ul li {
+    margin: 0.7em 0;
+}
+
+#sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    border-radius: 0.5em;
+    padding: 0.5em;
+}
+
+#sidebar ul li a i {
+    margin-right: 1em;
+}
+
+#sidebar ul li a:hover {
+    background-color: rgb(247, 244, 241);
+}
+
+#main {
+    flex: 1;
+    padding: 2rem 5rem;
+    margin-left: 14.5rem;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    justify-content: space-between;
+}
+
+#search-input {
+    padding: 0.5em;
+    margin-right: 0.5em;
+    flex: 1;
+    border: 0.2em solid #ccc;
+    border-radius: 0.5em;
+}
+
+#search-button {
+    padding: 0.6em 1em;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+#genres {
+    padding: 0.6em 4em 0.6em 0.6em;
+    border: 0.2em solid #ccc;
+    border-radius: 0.5em;
+    color: #a0a0a0;
+}
+
+#type h3 {
+    color: #b1b1b1;
+}
+
+#books {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.cover {
+    padding: 1em;
+    border-radius: 0.5em;
+    width: 15em;
+}
+
+.cover img {
+    width: 100%;
+    height: 20em;
+}
+
+.book-title {
+    position: relative;
+}
+
+.book-title span {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #27a1ca;
+    border: 0.1em solid #a0a0a0;
+    border-radius: 0.5em;
+    padding: 0.2em;
+}
+
+.book-info {
+    padding: 1em 0;
+}
+
+.book-info h3 {
+    margin: 0.5em 0 0.2em;
+    font-size: 1.1em;
+}
+
+.book-info p {
+    margin: 0;
+    color: #666;
+}
